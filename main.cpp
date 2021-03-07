@@ -123,7 +123,7 @@ int main() {
 		stringstream ss(str);
 		//Get command token
 		getline(ss, cmd, ' ');
-		// Do actions accorging to command category
+		// Do actions according to command category
 		handleCommand(ss, cmd);
 	}
 	return 0;
